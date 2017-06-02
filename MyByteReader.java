@@ -5,7 +5,6 @@ public class MyByteReader {
 
     public static void main(String[]args) {
 
-        //this is the test comments
         try(FileInputStream myFile = new FileInputStream("abc.dat")){
             int byteValue;
 
